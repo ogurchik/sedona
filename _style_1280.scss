@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1280px) and (min-width: 738px){
+    .page_wrap {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background: #f2f2f2;
+    }
+    .top-menu {
+        display: flex;
+        justify-content: space-around;
+        background: white;
+        width: 1200/1280 * 100%;
+    }
+    .top-menu__item {
+       font-size: 14px; 
+        font-family: 'PT Sans Caption', bold;
+    }
+    .top-menu__item--with-image {
+        background-image: url(images/mount.jpg);
+    }
+}
