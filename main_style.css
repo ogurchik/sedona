@@ -12,10 +12,26 @@
     width: 93.75%; }
 
   .top-menu__item {
+    display: flex;
+    justify-content: center;
+    width: 20%;
     font-size: 14px;
     font-family: 'PT Sans Caption', bold; }
 
   .top-menu__item--with-image {
-    background-image: url(images/mount.jpg); } }
+    display: flex;
+    justify-content: center;
+    width: 20%; }
+
+  .tingle {
+    position: absolute;
+    width: 100%;
+    background-image: url(images/mount.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    left: 0%;
+    text-align: center;
+    top: 0; } }
 
 /*# sourceMappingURL=main_style.css.map */
