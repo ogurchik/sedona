@@ -6,15 +6,18 @@ img {
 $width_container: 1200/1280*100%;
     .page_wrap {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         width: 100%;
         background: #f2f2f2;
+        border: 1px solid blue;
+        padding: 5px;
     }
     .top-menu {
         display: flex;
         justify-content: space-around;
         background: white;
-        width: 100%;
+        width: 90%;
         padding: 1.1rem;
         margin-top: -10px;
         border: 2px solid red;
