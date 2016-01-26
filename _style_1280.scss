@@ -17,6 +17,7 @@ $width_container: 1200/1280*100%;
         width: 100%;
         padding: 1.1rem;
         margin-top: -10px;
+        border: 2px solid red;
     }
     .top-menu__item {
         display: flex;
@@ -50,5 +51,14 @@ $width_container: 1200/1280*100%;
         top: 0;
         right: (100%-$width_container)/2;
         z-index: -1000;
+    }
+    .banner_title {
+
+    }
+    .banner {
+        display: flex;
+    }
+    .kurwa {
+        display: flex;
     }
 }

@@ -15,7 +15,8 @@
     background: white;
     width: 100%;
     padding: 1.1rem;
-    margin-top: -10px; }
+    margin-top: -10px;
+    border: 2px solid red; }
 
   .top-menu__item {
     display: flex;
@@ -45,6 +46,12 @@
     width: 93.75%;
     top: 0;
     right: 3.125%;
-    z-index: -1000; } }
+    z-index: -1000; }
+
+  .banner {
+    display: flex; }
+
+  .kurwa {
+    display: flex; } }
 
 /*# sourceMappingURL=main_style.css.map */
