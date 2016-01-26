@@ -6,8 +6,15 @@
   .page_wrap {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
     background: #f2f2f2; }
+
+  .banner__tagstring {
+    display: flex; }
+
+  .banner__title {
+    display: flex; }
 
   .top-menu {
     display: flex;
@@ -46,12 +53,6 @@
     width: 93.75%;
     top: 0;
     right: 3.125%;
-    z-index: -1000; }
-
-  .banner {
-    display: flex; }
-
-  .kurwa {
-    display: flex; } }
+    z-index: -1000; } }
 
 /*# sourceMappingURL=main_style.css.map */
