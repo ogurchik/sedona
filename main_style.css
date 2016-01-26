@@ -1,14 +1,21 @@
+/*@import 'reset';*/
 @media only screen and (max-width: 1280px) and (min-width: 738px) {
   img {
     max-width: 100%;
     max-height: auto; }
+
+  body {
+    margin: 0 0;
+    padding: 0 0; }
 
   .page_wrap {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    background: #f2f2f2; }
+    background: #f2f2f2;
+    align-items: center;
+    z-index: -1001; }
 
   .banner__tagstring {
     display: flex; }
@@ -20,10 +27,8 @@
     display: flex;
     justify-content: space-around;
     background: white;
-    width: 100%;
-    padding: 1.1rem;
-    margin-top: -10px;
-    border: 2px solid red; }
+    width: 93.75%;
+    padding: 16px 0; }
 
   .top-menu__item {
     display: flex;
