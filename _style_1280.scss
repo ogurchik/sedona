@@ -1,26 +1,48 @@
+/*@import 'reset';*/
 @media only screen and (max-width: 1280px) and (min-width: 738px){
 img {
     max-width: 100%;
     max-height: auto;
 }
+body {
+    margin: 0 0;
+    padding: 0 0;
+    }
 $width_container: 1200/1280*100%;
     .page_wrap {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        flex-direction: column; 
         width: 100%;
         background: #f2f2f2;
+<<<<<<< HEAD
         border: 1px solid blue;
         padding: 5px;
+=======
+        align-items: center;
+        z-index: -1001;
+    }
+    .banner__tagstring {
+        display: flex;
+    }
+    .banner__title {
+        display: flex;
+>>>>>>> shift!
     }
     .top-menu {
         display: flex;
         justify-content: space-around;
         background: white;
+<<<<<<< HEAD
         width: 90%;
         padding: 1.1rem;
         margin-top: -10px;
         border: 2px solid red;
+=======
+        width: $width_container;
+        padding: 16px 0;
+>>>>>>> shift!
     }
     .top-menu__item {
         display: flex;
@@ -57,11 +79,5 @@ $width_container: 1200/1280*100%;
     }
     .banner_title {
 
-    }
-    .banner {
-        display: flex;
-    }
-    .kurwa {
-        display: flex;
     }
 }
