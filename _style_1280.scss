@@ -9,17 +9,13 @@ body {
     padding: 0 0;
     }
 $width_container: 1200/1280*100%;
-    .page_wrap {
+    body {
         display: flex;
         flex-direction: column;
         justify-content: center;
         flex-direction: column; 
         width: 100%;
         background: #f2f2f2;
-<<<<<<< HEAD
-        border: 1px solid blue;
-        padding: 5px;
-=======
         align-items: center;
         z-index: -1001;
     }
@@ -28,21 +24,13 @@ $width_container: 1200/1280*100%;
     }
     .banner__title {
         display: flex;
->>>>>>> shift!
     }
     .top-menu {
         display: flex;
         justify-content: space-around;
         background: white;
-<<<<<<< HEAD
-        width: 90%;
-        padding: 1.1rem;
-        margin-top: -10px;
-        border: 2px solid red;
-=======
         width: $width_container;
         padding: 16px 0;
->>>>>>> shift!
     }
     .top-menu__item {
         display: flex;
@@ -77,7 +65,7 @@ $width_container: 1200/1280*100%;
         right: (100%-$width_container)/2;
         z-index: -1000;
     }
-    .banner_title {
-
+    .banner {
+        margin-top: 15px;
     }
 }
