@@ -3,10 +3,12 @@
 img {
     max-width: 100%;
     max-height: auto;
+
 }
 body {
     margin: 0 0;
     padding: 0 0;
+    font-size: 14px;
     }
 $width_container: 1200/1280*100%;
     body {
@@ -31,7 +33,7 @@ $width_container: 1200/1280*100%;
         background: white;
         width: $width_container;
         padding: 16px 0;
-        margin-bottom: 40px;
+        margin-bottom: 75px;
     }
     .top-menu__item {
         display: flex;
@@ -78,16 +80,29 @@ $width_container: 1200/1280*100%;
         justify-content: center;
         align-items: center;
     }
-    .banner-header__title  {
-       font-size: 45px;
-       color:#81b3d2;
-       font-weight: bold;
-    }
+@media only screen  and (max-width: 1000px) and (min-width: 500px) {
+        .banner-header__title {
+            font-size: 45px;
+           font-weight: bold;
+           padding:0; 
+           color: white;
+            background-image: url(images/triangle-right.png);
+        }
+}
+@media only screen  and (max-width: 1280px) and (min-width: 1000px) {
+        .banner-header__title  {
+           font-size: 45px;
+           color:#81b3d2;
+           font-weight: bold;
+           padding:0;
+        }
+}
     .banner-header__subtitle {
        font-size: 20px;
        font-style: italic;
         color: #766357;
         margin-bottom: 45px;
+        background-image: url(images/triangle-right.png);
     }
     .banner-header__subtitle:before {
         content: "-";
@@ -105,4 +120,12 @@ $width_container: 1200/1280*100%;
     .banner_footer {
         
     }
+    .banner-triangle-decor {
+            position: absolute;
+            top: 360px;
+            left: 40/1280 * 100%;
+            background-image: url(images/triangle-right.png);
+            background-repeat: no-repeat;
+            font-size: 30px;
+     }
 }

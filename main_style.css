@@ -6,7 +6,8 @@
 
   body {
     margin: 0 0;
-    padding: 0 0; }
+    padding: 0 0;
+    font-size: 14px; }
 
   body {
     display: flex;
@@ -30,7 +31,7 @@
     background: white;
     width: 93.75%;
     padding: 16px 0;
-    margin-bottom: 40px; }
+    margin-bottom: 75px; }
 
   .top-menu__item {
     display: flex;
@@ -72,18 +73,27 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
-
+    align-items: center; } }
+@media only screen and (max-width: 1280px) and (min-width: 738px) and (max-width: 1000px) and (min-width: 500px) {
+  .banner-header__title {
+    font-size: 45px;
+    font-weight: bold;
+    padding: 0;
+    color: white;
+    background-image: url(images/triangle-right.png); } }
+@media only screen and (max-width: 1280px) and (min-width: 738px) and (max-width: 1280px) and (min-width: 1000px) {
   .banner-header__title {
     font-size: 45px;
     color: #81b3d2;
-    font-weight: bold; }
-
+    font-weight: bold;
+    padding: 0; } }
+@media only screen and (max-width: 1280px) and (min-width: 738px) {
   .banner-header__subtitle {
     font-size: 20px;
     font-style: italic;
     color: #766357;
-    margin-bottom: 45px; }
+    margin-bottom: 45px;
+    background-image: url(images/triangle-right.png); }
 
   .banner-header__subtitle:before {
     content: "-"; }
@@ -95,6 +105,14 @@
     font-size: 450%;
     color: white;
     font-weight: bolder;
-    margin-bottom: 55px; } }
+    margin-bottom: 55px; }
+
+  .banner-triangle-decor {
+    position: absolute;
+    top: 360px;
+    left: 3.125%;
+    background-image: url(images/triangle-right.png);
+    background-repeat: no-repeat;
+    font-size: 30px; } }
 
 /*# sourceMappingURL=main_style.css.map */
