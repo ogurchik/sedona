@@ -33,7 +33,6 @@ $width_container: 1200/1280*100%;
         background: white;
         width: $width_container;
         padding: 16px 0;
-        margin-bottom: 75px;
     }
     .top-menu__item {
         display: flex;
@@ -61,18 +60,18 @@ $width_container: 1200/1280*100%;
         text-align: center;
         top: 0;
     }
-    .background-of-hat {
-        position: absolute;
-        width:$width_container; 
-        top: 0;
-        right: (100%-$width_container)/2;
-        z-index: -1000;
-    }
+    
     .banner {
+       
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: $width_container;
+        background-image: url(images/background_photo.jpg);
+        background-size: cover;
+        padding-top: 75px;
+        padding-bottom: 0;
     }
     .banner-header {
         display: flex;
@@ -86,13 +85,29 @@ $width_container: 1200/1280*100%;
        font-size: 20px;
        font-style: italic;
         color: #766357;
-        margin-bottom: 45px;
+        margin-bottom: 48px;
         background-image: url(images/triangle-right.png);
     }
     .banner-header__subtitle:before {
         content: "-";
 
     }
+    .problem {
+       border: 1px solid blue; 
+        width: 100%;
+    }
+    
+    .enshtain {
+        height: 46px;
+        color: white;
+        background: blue;
+        background-image: url(images/bg-poster-mask.png) ;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: contain;
+        border: 1px solid black;
+    }
+    
     .banner-header__subtitle:after {
         content: "-";
     }
@@ -102,35 +117,15 @@ $width_container: 1200/1280*100%;
         font-weight: bolder;
         margin-bottom: 35px;
     }
-    .banner_footer {
-        
+    .banner-footer {
+       margin-bottom: 45px; 
+       
     }
-    .banner-triangle-decor__right-triangle {
-            position: absolute;
-            top: 435px;
-            right: 40/1280 * 100%;
-            width: 50%;
-            background-image: url(images/triangle-right.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: 20px 0;
-            height: 40px;
-            font-size: 30px;
-     }
-     .banner-triangle-decor__left-triangle {
-            position: absolute;
-            top: 435px;
-            left: 40/1280 * 100%;
-            width: 50%;
-            background-image: url(images/triangle-right.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: 20px 0;
-            height: 40px;
-            font-size: 30px;
-            transform:scale(-1,1);
-     }
-}
+    .clip-svg {
+        clip-path: url(#myClip);
+    }
+    
+    }
 @media only screen  and (max-width: 1000px) and (min-width: 700px) {
         .banner-header__title {
             font-size: 45px;

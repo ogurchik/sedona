@@ -30,7 +30,8 @@
     justify-content: space-around;
     background: white;
     width: 93.75%;
-    padding: 16px 0; }
+    padding: 16px 0;
+    margin-bottom: 75px; }
 
   .top-menu__item {
     display: flex;
@@ -55,16 +56,18 @@
     text-align: center;
     top: 0; }
 
+  .background-of-hat {
+    position: absolute;
+    width: 93.75%;
+    top: 0;
+    right: 3.125%;
+    z-index: -1000; }
+
   .banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 93.75%;
-    background-image: url(images/background_photo.jpg);
-    background-size: cover;
-    padding-top: 75px;
-    padding-bottom: 0; }
+    align-items: center; }
 
   .banner-header {
     display: flex;
@@ -76,25 +79,11 @@
     font-size: 20px;
     font-style: italic;
     color: #766357;
-    margin-bottom: 48px;
+    margin-bottom: 45px;
     background-image: url(images/triangle-right.png); }
 
   .banner-header__subtitle:before {
     content: "-"; }
-
-  .problem {
-    border: 1px solid blue;
-    width: 100%; }
-
-  .enshtain {
-    height: 46px;
-    color: white;
-    background: blue;
-    background-image: url(images/bg-poster-mask.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: contain;
-    border: 1px solid black; }
 
   .banner-header__subtitle:after {
     content: "-"; }
@@ -105,11 +94,30 @@
     font-weight: bolder;
     margin-bottom: 35px; }
 
-  .banner-footer {
-    margin-bottom: 45px; }
+  .banner-triangle-decor__right-triangle {
+    position: absolute;
+    top: 435px;
+    right: 3.125%;
+    width: 50%;
+    background-image: url(images/triangle-right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 20px 0;
+    height: 40px;
+    font-size: 30px; }
 
-  .clip-svg {
-    clip-path: url(#myClip); } }
+  .banner-triangle-decor__left-triangle {
+    position: absolute;
+    top: 435px;
+    left: 3.125%;
+    width: 50%;
+    background-image: url(images/triangle-right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 20px 0;
+    height: 40px;
+    font-size: 30px;
+    transform: scale(-1, 1); } }
 @media only screen and (max-width: 1000px) and (min-width: 700px) {
   .banner-header__title {
     font-size: 45px;
@@ -124,4 +132,4 @@
     font-weight: bold;
     padding: 0; } }
 
-/*# sourceMappingURL=main_style.css.map */
+/*# sourceMappingURL=main_style..map */
