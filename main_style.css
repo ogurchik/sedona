@@ -81,13 +81,14 @@
     padding: 0;
     color: white;
     background-image: url(images/triangle-right.png); } }
-@media only screen and (max-width: 1280px) and (min-width: 738px) and (max-width: 1280px) and (min-width: 1000px) {
+@media only screen and (max-width: 1280px) and (min-width: 738px) {
   .banner-header__title {
     font-size: 45px;
     color: #81b3d2;
     font-weight: bold;
-    padding: 0; } }
-@media only screen and (max-width: 1280px) and (min-width: 738px) {
+    padding: 0;
+    border: 1px solid red; }
+
   .banner-header__subtitle {
     font-size: 20px;
     font-style: italic;
