@@ -1,4 +1,15 @@
 /*@import 'reset';*/
+@font-face {
+  font-family: 'symbols-sedona';
+  src: url('font/symbols-sedona.eot?60737633');
+  src: url('font/symbols-sedona.eot?60737633#iefix') format('embedded-opentype'),
+    url('font/symbols-sedona.woff?60737633') format('woff'),
+    url('font/symbols-sedona.ttf?60737633') format('truetype'),
+    url('font/symbols-sedona.svg?60737633#symbols-sedona') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @media only screen and (max-width: 1280px) and (min-width: 738px){
 img {
     max-width: 100%;
@@ -34,6 +45,7 @@ $width_container: 1200/1280*100%;
         background: white;
         width: $width_container;
         padding: 16px 0;
+        font-weight: 400;
     }
     .top-menu__item {
         display: flex;
@@ -141,6 +153,13 @@ $width_container: 1200/1280*100%;
         height:255px;
         -moz-box-sizing: border-box;
     }
+    .content-for-tourist__higher {
+        display: flex;
+        width: 100%;
+        height:330px;
+        -moz-box-sizing: border-box;
+        border: 1px solid blue;
+    }
     .content-for-tourist__text-of-city {
         width: 33.33333%;
         background: #81b3d2;
@@ -151,13 +170,36 @@ $width_container: 1200/1280*100%;
     }
     .content-for-tourist__text-of-city--font10px {
         font-size: 10px;
-        
     }
     .content-for-tourist__image-of-city {
         width: 66.66667%;
         background-image:url(images/image-city.gif);
         background-size: 100% 100%;
         background-repeat: no-repeat;
+    }
+    .content-for-tourist__habitation {
+        padding-top: 60px;
+        width: 33.3333%;
+        text-align: center;
+        background: white;
+    }
+    .content-for-tourist__food {
+        padding-top: 60px;
+        width: 33.3333%;
+        text-align: center;
+    }
+    .content-for-tourist__souvenirs {
+        padding-top: 60px;
+        width: 33.3333%;
+        text-align: center;
+    }
+    .content-for-tourist__higher--title-bold {
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .content-for-tourist__higher--subtitle {
+        color: #333333;
+        font-size: 10px;
     }
    
     
