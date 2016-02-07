@@ -140,10 +140,20 @@
     display: flex;
     width: 100%;
     height: 330px;
-    -moz-box-sizing: border-box;
-    border: 1px solid blue; }
+    -moz-box-sizing: border-box; }
+
+  .content-for-tourist__higher section:nth-child(3) {
+    padding-top: 54px; }
 
   .content-for-tourist__text-of-city {
+    width: 33.33333%;
+    background: #81b3d2;
+    color: white;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 65px; }
+
+  .content-for-tourist__text-of-bridge {
     width: 33.33333%;
     background: #81b3d2;
     color: white;
@@ -157,6 +167,12 @@
   .content-for-tourist__image-of-city {
     width: 66.66667%;
     background-image: url(images/image-city.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; }
+
+  .content-for-tourist__image-of-bridge {
+    width: 66.66667%;
+    background-image: url(images/image-bridge.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat; }
 
@@ -182,7 +198,45 @@
 
   .content-for-tourist__higher--subtitle {
     color: #333333;
-    font-size: 10px; } }
+    font-size: 10px; }
+
+  .content-for-tourist__small-area {
+    padding-top: 60px;
+    width: 33.3333%;
+    text-align: center;
+    background: #81b3d2; }
+
+  .lighter {
+    font-size: 10px;
+    font-weight: lighter; }
+
+  .taff {
+    font-size: 16px;
+    font-weight: 500; }
+
+  .map-title {
+    margin-top: 55px;
+    font-size: 22px;
+    margin-bottom: 40px; }
+
+  .map-subtitle {
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 55px; }
+
+  .btn-search-to-hotel {
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    width: 47.33333%;
+    margin: 0 auto;
+    background: #766357;
+    color: white;
+    font-size: 21/14em;
+    font-weight: bold;
+    align-items: center;
+    border-box: box-sizing; } }
 @media only screen and (max-width: 1000px) and (min-width: 700px) {
   .banner-header__title {
     font-size: 45px;
