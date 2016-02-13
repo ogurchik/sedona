@@ -10,6 +10,15 @@
     max-width: 100%;
     height: auto; }
 
+  .clica {
+    height: 60px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #69d2e7;
+    text-align: center;
+    color: #FFF;
+    opacity: 1; }
+
   body {
     margin: 0 0;
     padding: 0 0;
@@ -219,11 +228,47 @@
     font-size: 22px;
     margin-bottom: 40px; }
 
+  .slide-menu {
+    display: none;
+    position: absolute;
+    border: 1px solid blue;
+    height: 360px;
+    width: 47.33333%;
+    left: 26.33333%;
+    background: white;
+    box-sizing: border-box; }
+
+  .form-for-search-hotel {
+    display: flex;
+    margin: 55px auto;
+    font-size: 14px;
+    width: 79.82456%;
+    flex-direction: column;
+    width: 80.35088%; }
+
+  .padding-label-form {
+    padding-right: 20px; }
+
+  .form-input {
+    background: #d3d9df;
+    border: 0px;
+    border-radius: 3px;
+    background-image: url(images/form-image.png);
+    background-repeat: no-repeat;
+    background-position: right top; }
+
+  .form-input:focus {
+    outline: none; }
+
   .map-subtitle {
     font-size: 10px;
     font-weight: lighter;
     text-align: center;
     margin-bottom: 55px; }
+
+  .carcas {
+    width: 93.75%;
+    border: 1px solid red; }
 
   .btn-search-to-hotel {
     display: flex;
@@ -236,7 +281,14 @@
     font-size: 21/14em;
     font-weight: bold;
     align-items: center;
-    border-box: box-sizing; } }
+    border-box: box-sizing; }
+
+  .map {
+    width: 93.75%;
+    position: relative;
+    height: 480px;
+    background-image: url(images/mapa.jpeg);
+    background-size: cover; } }
 @media only screen and (max-width: 1000px) and (min-width: 700px) {
   .banner-header__title {
     font-size: 45px;
