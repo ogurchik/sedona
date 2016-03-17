@@ -139,6 +139,9 @@
     font-size: 10px;
     margin-bottom: 60px; }
 
+  .porebrik {
+    background-color: #d3d9df; }
+
   .content-for-tourist {
     display: flex;
     width: 100%;
@@ -212,8 +215,7 @@
   .content-for-tourist__small-area {
     padding-top: 60px;
     width: 33.3333%;
-    text-align: center;
-    background: #81b3d2; }
+    text-align: center; }
 
   .lighter {
     font-size: 10px;
@@ -267,8 +269,7 @@
     margin-bottom: 55px; }
 
   .carcas {
-    width: 93.75%;
-    border: 1px solid red; }
+    width: 93.75%; }
 
   .btn-search-to-hotel {
     display: flex;
