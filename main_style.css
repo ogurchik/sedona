@@ -23,6 +23,8 @@
     margin: 0 0;
     padding: 0 0;
     font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
     font-family: PT Sans Caption; }
 
   body {
@@ -46,8 +48,9 @@
     justify-content: space-around;
     background: white;
     width: 93.75%;
+    font-size: 14px;
     padding: 16px 0;
-    font-weight: 400; }
+    font-weight: bold; }
 
   .top-menu__item {
     display: flex;
