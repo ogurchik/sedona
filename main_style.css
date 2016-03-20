@@ -75,6 +75,11 @@
     text-align: center;
     top: 0; }
 
+  .inside-slide-menu {
+    width: 98%;
+    margin: auto;
+    background: #beceda; }
+
   .banner {
     display: flex;
     flex-direction: column;
@@ -218,7 +223,7 @@
     font-size: 10px; }
 
   .content-for-tourist__small-area {
-    font-size: 9px;
+    font-size: 20px;
     padding-top: 60px;
     width: 33.3333%;
     text-align: center; }
@@ -249,38 +254,45 @@
 
   .form-for-search-hotel {
     display: flex;
-    margin: 55px auto;
     font-size: 14px;
-    width: 79.82456%;
-    flex-direction: column;
-    width: 80.35088%; }
-
-  .padding-label-form {
-    padding-right: 20px;
-    float: left; }
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    flex-direction: column; }
 
   .list-form-search-hotel {
     float: left; }
 
   .form-row {
-    float: left; }
+    line-height: 24px; }
 
   .form-input:focus {
     outline: none; }
 
   .love-float {
-    float: left;
-    font-size: 12px;
-    font-weight: bold; }
+    font-size: 17px;
+    font-weight: bold;
+    border: 2px dotted black;
+    width: 98%;
+    margin: auto; }
 
   .love-float-input {
     border: 1px solid gray;
     border: 0px;
-    border-radius: 3px;
+    background: #F5F5F5;
+    line-height: 24px;
+    border: 2px solid #C0C0C0;
+    border-radius: 1px;
     background-image: url(images/form-image.png);
     background-repeat: no-repeat;
-    background-position: right top;
-    width: 60%; }
+    background-position: 98% 50%;
+    width: 150%; }
+
+  .love-float-input:focus {
+    background: white;
+    background-image: url(images/form-image.png);
+    background-repeat: no-repeat;
+    background-position: 98% 50%; }
 
   .map-subtitle {
     font-size: 10px;
