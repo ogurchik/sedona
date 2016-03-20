@@ -143,7 +143,9 @@
     margin-bottom: 60px; }
 
   .porebrik {
-    background-color: #d3d9df; }
+    background-color: #d3d9df;
+    line-height: 18px;
+    font-size: 10px; }
 
   .content-for-tourist {
     display: flex;
@@ -216,6 +218,7 @@
     font-size: 10px; }
 
   .content-for-tourist__small-area {
+    font-size: 9px;
     padding-top: 60px;
     width: 33.3333%;
     text-align: center; }
@@ -226,7 +229,8 @@
 
   .taff {
     font-size: 16px;
-    font-weight: 500; }
+    font-weight: 500;
+    line-height: 18px; }
 
   .map-title {
     margin-top: 55px;
@@ -238,8 +242,8 @@
     position: absolute;
     border: 1px solid blue;
     height: 360px;
-    width: 47.33333%;
-    left: 26.33333%;
+    width: 58.33333%;
+    left: 20.83333%;
     background: white;
     box-sizing: border-box; }
 
@@ -252,18 +256,31 @@
     width: 80.35088%; }
 
   .padding-label-form {
-    padding-right: 20px; }
+    padding-right: 20px;
+    float: left; }
 
-  .form-input {
-    background: #d3d9df;
+  .list-form-search-hotel {
+    float: left; }
+
+  .form-row {
+    float: left; }
+
+  .form-input:focus {
+    outline: none; }
+
+  .love-float {
+    float: left;
+    font-size: 12px;
+    font-weight: bold; }
+
+  .love-float-input {
+    border: 1px solid gray;
     border: 0px;
     border-radius: 3px;
     background-image: url(images/form-image.png);
     background-repeat: no-repeat;
-    background-position: right top; }
-
-  .form-input:focus {
-    outline: none; }
+    background-position: right top;
+    width: 60%; }
 
   .map-subtitle {
     font-size: 10px;
@@ -278,7 +295,7 @@
     display: flex;
     justify-content: center;
     height: 65px;
-    width: 47.33333%;
+    width: 58.33333%;
     margin: 0 auto;
     background: #766357;
     color: white;

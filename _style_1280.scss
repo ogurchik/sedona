@@ -161,6 +161,8 @@ $width_container: 1200/1280*100%;
     }    
     .porebrik {
         background-color: #d3d9df;
+        line-height:18px;
+        font-size: 10px;
     }
     .content-for-tourist {
         display: flex;
@@ -232,6 +234,7 @@ $width_container: 1200/1280*100%;
         font-size: 10px;
     }
     .content-for-tourist__small-area {
+        font-size: 9px;
         padding-top: 60px;
         width: 33.3333%;
         text-align: center;
@@ -243,6 +246,7 @@ $width_container: 1200/1280*100%;
     .taff {
         font-size: 16px;
         font-weight: 500;
+        line-height: 18px;
     }
     .map-title {
         margin-top: 55px;
@@ -254,8 +258,8 @@ $width_container: 1200/1280*100%;
           position: absolute;
           border: 1px solid blue;
           height: 360px;
-          width: 568/1200*100%;
-          left: 316/1200*100%;
+          width: 700/1200*100%;
+          left: 250/1200*100%;
           background: white;
           box-sizing: border-box;
     }
@@ -270,17 +274,30 @@ $width_container: 1200/1280*100%;
     }
     .padding-label-form {
         padding-right: 20px;
+        float: left;
     }
-    .form-input {
-        background: #d3d9df;
+    .list-form-search-hotel {
+        float: left;
+    }
+    .form-row {
+        float: left;
+    }
+    .form-input:focus {
+        outline: none;
+    }
+    .love-float {
+        float: left;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .love-float-input {
+        border: 1px solid gray;
         border: 0px;
         border-radius: 3px;
         background-image: url(images/form-image.png);
         background-repeat: no-repeat;
         background-position:right top;
-    }
-    .form-input:focus {
-        outline: none;
+        width: 60%;
     }
     
     .map-subtitle {
@@ -296,7 +313,7 @@ $width_container: 1200/1280*100%;
         display: flex;
         justify-content: center;
         height: 65px;
-        width: 568/1200*100%;
+        width: 700/1200*100%;
         margin: 0 auto;
         background:#766357;
         color: white;
