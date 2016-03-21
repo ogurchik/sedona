@@ -258,23 +258,35 @@
     justify-content: center;
     align-items: center;
     border: 1px solid red;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: 55px; }
 
   .list-form-search-hotel {
     float: left; }
 
   .form-row {
-    line-height: 24px; }
+    line-height: 24px;
+    width: 100%;
+    margin-bottom: 25px; }
+
+  .kurwa-input {
+    width: 60.73944%;
+    background: #d3d9df;
+    line-height: 28px;
+    background-image: url(images/form-image.png);
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    border: none; }
 
   .form-input:focus {
     outline: none; }
 
   .love-float {
-    font-size: 17px;
+    font-size: 14px;
     font-weight: bold;
-    border: 2px dotted black;
-    width: 98%;
-    margin: auto; }
+    width: 80.45775%;
+    margin: auto;
+    line-height: 26px; }
 
   .love-float-input {
     border: 1px solid gray;

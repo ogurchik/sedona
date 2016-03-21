@@ -277,6 +277,7 @@ $width_container: 1200/1280*100%;
         align-items: center;
         border: 1px solid red;
         flex-direction: column;
+        margin-top: 55px;
         
     }
     .list-form-search-hotel {
@@ -284,16 +285,28 @@ $width_container: 1200/1280*100%;
     }
     .form-row {
 	line-height: 24px;
+    width: 100%;
+    margin-bottom: 25px;
+    
+    }
+    .kurwa-input {
+        width:345/568*100%;
+        background: #d3d9df;
+        line-height: 28px;
+        background-image: url(images/form-image.png);
+        background-repeat: no-repeat;
+        background-position: 98% 50%;
+        border: none;
     }
     .form-input:focus {
         outline: none;
     }
     .love-float {
-        font-size: 17px;
+        font-size: 14px;
         font-weight: bold;
-        border: 2px dotted black;   
-        width: 98%;
+        width: 457/568*100%;
         margin: auto;
+        line-height: 26px;
     }
     .love-float-input {
         border: 1px solid gray;
