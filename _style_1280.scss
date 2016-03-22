@@ -214,6 +214,10 @@ $width_container: 1200/1280*100%;
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
+    .padding-label-form {
+        width: 30%;
+        background: #beceda;
+    }
     .content-for-tourist__habitation {
         padding-top: 60px;
         width: 33.3333%;
@@ -297,11 +301,13 @@ $width_container: 1200/1280*100%;
         background-repeat: no-repeat;
         background-position: 98% 50%;
         border: none;
+        margin-left: 10%;
     }
     .form-input:focus {
         outline: none;
     }
     .love-float {
+        border: 1px solid gray;
         font-size: 14px;
         font-weight: bold;
         width: 457/568*100%;
