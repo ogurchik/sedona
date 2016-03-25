@@ -275,24 +275,38 @@ $width_container: 1200/1280*100%;
 
 
     .label-block {
-        background:  #F5F5F5;
-        margin-left: 56/568*100%;
+        margin-left: 36/568*100%;
         width: 140/568*100%;
         display:inline-block;
     }
     .inside-string-form {
-        background:#FFC0CB;
+        width: 100%;
+        margin-bottom: 30px;
     }
     .input-block {
-        background: #FFDAB9;
         display:inline-block;
         width: 346/568*100%;
+        margin-left: 10/568*100%;
+        background: #d3d9dd;
+        border: none;
+        background-image: url(images/form-image.png);
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+        line-height: 26px;
+        border: #d3d9dd 2px solid;
+    }
+    .input-block:focus {
+        background: white;
+        border: 2px solid #d3d9dd;
+        background-image: url(images/form-image.png);
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+        line-height: 26px;
     }
     .form-for-search-hotel {
         display:flex;
         font-size: 14px;
         justify-content: center;
-        border: 1px solid red;
         flex-direction: column;
         margin-top: 55px;
         
