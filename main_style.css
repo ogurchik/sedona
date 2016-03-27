@@ -258,19 +258,21 @@
 
   .label-block {
     margin-left: 6.33803%;
-    width: 24.64789%;
-    display: inline-block; }
+    width: 19.3662%;
+    display: inline-block;
+    margin-right: 0.88028%;
+    border: 2px solid blue; }
 
   .inside-string-form {
     width: 100%;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    border: 2px solid gray; }
 
   .input-block {
     display: inline-block;
     width: 60.91549%;
-    margin-left: 1.76056%;
+    margin-left: 0;
     background: #d3d9dd;
-    border: none;
     background-image: url(images/form-image.png);
     background-repeat: no-repeat;
     background-position: 95% 50%;
@@ -366,7 +368,28 @@
     position: relative;
     height: 480px;
     background-image: url(images/mapa.jpeg);
-    background-size: cover; } }
+    background-size: cover; }
+
+  .adult {
+    border: 1px dotted red; }
+
+  .children {
+    display: inline-block;
+    width: 17.60563%;
+    border: 1px dotted red; }
+
+  .input-adult {
+    border: 3px solid gray;
+    display: inline-block; }
+
+  .label-counter-adult {
+    display: inline-block;
+    width: 19.3662%;
+    border: 2px solid blue;
+    margin-left: 6.33803%; }
+
+  .input-adult {
+    width: 20.24648%; } }
 @media only screen and (max-width: 1000px) and (min-width: 700px) {
   .banner-header__title {
     font-size: 45px;
