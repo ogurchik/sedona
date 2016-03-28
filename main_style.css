@@ -249,7 +249,6 @@
   .slide-menu {
     display: none;
     position: absolute;
-    border: 1px solid blue;
     height: 360px;
     width: 58.33333%;
     left: 20.83333%;
@@ -260,24 +259,23 @@
     margin-left: 6.33803%;
     width: 24.64789%;
     display: inline-block;
-    margin-right: 0.88028%;
-    border: 2px solid blue; }
+    margin-right: 0.88028%; }
 
   .inside-string-form {
     width: 100%;
-    margin-bottom: 30px;
-    border: 2px solid gray; }
+    margin-bottom: 30px; }
 
   .input-block {
+    line-height: 26px;
     display: inline-block;
     width: 58.82353%;
     margin-left: 0;
-    background: #d3d9dd;
+    background: #f2f2f2;
     background-image: url(images/form-image.png);
     background-repeat: no-repeat;
     background-position: 95% 50%;
     line-height: 26px;
-    border: #d3d9dd 2px solid; }
+    border: #f2f2f2 2px solid; }
 
   .input-block:focus {
     background: white;
@@ -286,6 +284,12 @@
     background-repeat: no-repeat;
     background-position: 95% 50%;
     line-height: 26px; }
+
+  .input-children:focus {
+    background: white; }
+
+  .input-adult:focus {
+    background: white; }
 
   .form-for-search-hotel {
     display: flex;
@@ -370,36 +374,53 @@
     background-image: url(images/mapa.jpeg);
     background-size: cover; }
 
+  width: 80.35088%;
   .adult {
     border: 1px dotted red; }
 
   .children {
     display: inline-block;
-    border: 1px dotted red;
-    width: 36.33218%; }
+    width: 36.33218%;
+    margin-left: 2.85714%; }
 
   .input-adult {
-    border: 3px solid gray;
+    border: 1px;
+    line-height: 26px;
     display: inline-block;
-    width: 17.30104%; }
+    width: 17.30104%;
+    background: #f2f2f2; }
 
   .label-counter-adult {
     display: inline-block;
     width: 24.64789%;
-    border: 2px solid blue;
     margin-left: 6.33803%; }
 
   .label-counter-children {
     width: 35%;
-    display: inline-block;
-    border: 1px solid blue; }
+    display: inline-block; }
 
   .input-children {
+    line-height: 26px;
     display: inline-block;
-    width: 55%; }
+    width: 55%;
+    background: #f2f2f2;
+    margin-left: 5.45455%;
+    border: 0; }
 
   .input-adult {
-    width: 20.24648%; } }
+    width: 20.24648%;
+    background: #f2f2f2;
+    line-height: 26px; }
+
+  .button-submit {
+    width: 86%;
+    margin-left: 6.33803%;
+    background: #81b3d2;
+    color: white;
+    height: 53px;
+    outline: none;
+    box-shadow: none;
+    border: none; } }
 @media only screen and (max-width: 1000px) and (min-width: 700px) {
   .banner-header__title {
     font-size: 45px;
