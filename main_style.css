@@ -258,7 +258,7 @@
 
   .label-block {
     margin-left: 6.33803%;
-    width: 19.3662%;
+    width: 24.64789%;
     display: inline-block;
     margin-right: 0.88028%;
     border: 2px solid blue; }
@@ -270,7 +270,7 @@
 
   .input-block {
     display: inline-block;
-    width: 60.91549%;
+    width: 58.82353%;
     margin-left: 0;
     background: #d3d9dd;
     background-image: url(images/form-image.png);
@@ -375,18 +375,28 @@
 
   .children {
     display: inline-block;
-    width: 17.60563%;
-    border: 1px dotted red; }
+    border: 1px dotted red;
+    width: 36.33218%; }
 
   .input-adult {
     border: 3px solid gray;
-    display: inline-block; }
+    display: inline-block;
+    width: 17.30104%; }
 
   .label-counter-adult {
     display: inline-block;
-    width: 19.3662%;
+    width: 24.64789%;
     border: 2px solid blue;
     margin-left: 6.33803%; }
+
+  .label-counter-children {
+    width: 35%;
+    display: inline-block;
+    border: 1px solid blue; }
+
+  .input-children {
+    display: inline-block;
+    width: 55%; }
 
   .input-adult {
     width: 20.24648%; } }

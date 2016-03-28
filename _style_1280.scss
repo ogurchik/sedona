@@ -276,7 +276,7 @@ $width_container: 1200/1280*100%;
 
     .label-block {
         margin-left: 36/568*100%;
-        width: 110/568*100%;
+        width: 140/568*100%;
         display:inline-block;
         margin-right: 5/568*100%;
         border: 2px solid blue;
@@ -288,7 +288,7 @@ $width_container: 1200/1280*100%;
     }
     .input-block {
         display:inline-block;
-        width: 346/568*100%;
+        width: 340/578*100%;
         margin-left: 0;
         background: #d3d9dd;
         background-image: url(images/form-image.png);
@@ -395,18 +395,28 @@ $width_container: 1200/1280*100%;
     }
     .children {
         display: inline-block;
-        width: 100/568*100%;
         border: 1px dotted red;
+        width: 210/578*100%;
     }
     .input-adult {
         border: 3px solid gray;
         display: inline-block;
+        width: 100/578*100%;
     }
     .label-counter-adult {
         display: inline-block;
-        width: 110/568*100%;
+        width: 140/568*100%;
         border: 2px solid blue;
         margin-left: 36/568*100%;
+    }
+    .label-counter-children {
+        width: 70/200*100%;
+        display: inline-block;
+        border: 1px solid blue;
+    }
+    .input-children {
+        display: inline-block;
+        width: 110/200*100%;
     }
     .input-adult {
         width: 115/568*100%;
